@@ -1,0 +1,1066 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.body{
+    background-color: black;
+}
+/* faime  */
+.faime{
+    /* height: 100px; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+.logo{
+    height: 40px;
+    width: 155px;
+    background-image: url(./image/logo.png);
+    background-size: cover;
+
+    
+
+}
+.faime1{
+    height: 100%;
+    width: 16%;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    padding: 20px 0px;
+}
+.faime2{
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.faime2 ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left:40px;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    
+    
+}
+.faime ul li a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    background-color: #fd6500;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* part one  */
+.devid{
+    /* height: 750px; */
+    width: 100%;
+    
+    display:flex;
+    
+}
+.dev1{
+    height: 100%;
+    width: 15%;
+    background-color:black;
+}
+.dev1{
+    font-size: 40px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    
+    
+}
+.dev1 h2{
+    font-size: 15px;
+    transform: rotate(-90deg);
+    margin-bottom: 90px;
+    margin-right: 40px;
+
+    
+    
+}
+.dev2{
+    height: 100%;
+    width: 85%;
+    background-color: #8851a6;
+    background-image: url(./image/19103.jpg);
+    background-size: cover;
+    
+    
+    color: aliceblue;
+}
+.dev2 h2{
+    font-size: 20px;
+    color: #fd6500;
+    margin-top: 130px;
+    margin-left: 25px;
+}
+.dev2 h1{
+    font-size: 100px;
+    margin: 15px 0px;
+    margin-left: 20px;
+    
+}
+.dev2 p{
+    font-size: 20px;
+    margin: 10px 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.dev1 i{
+   font-size: 30px;
+   color: white;
+   margin: 10px 0px;
+   
+   
+}
+.dev1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn1{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.directologo1{
+    height: 100px;
+    width: 130px;
+    background-color: greenyellow;
+    background-image: url(./image/director2.jfif);
+    background-size: cover;
+    display: inline-flex;
+    margin-right: 10px;
+    
+    
+    
+}
+.directologo2{
+    height: 100px;
+    width: 130px;
+    background-color: greenyellow;
+    background-image: url(./image/director1.jpg);
+    background-size: cover;
+    display: inline-flex;
+    margin-right: 10px;
+}
+.directologo3{
+    height: 100px;
+    width: 130px;
+    background-color: greenyellow;
+    background-image: url(./image/director3.png);
+    background-size: cover;
+    display: inline-flex;
+    margin-right: 10px;
+}
+.dev2 .iccon{
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+/* part3 */
+.film{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+}
+.film1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-image: url(./image/part\ 3.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.film2{
+    height: 100%;
+    width: 50%;
+    color: white;
+    background-color:rgba(22, 21, 21, 0.988) ;
+}
+.film2 h2{
+    color: #fd6500;
+    margin-top: 140px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.film2 h1{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+.film2 p{
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 50px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.signature{
+    height: 70px;
+    width: 250px;
+    background-color: red;
+    background-image: url(./image/sig.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.film1{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+.film1 h1{
+    font-size: 200px;
+    color: white;
+    margin-top: 70%;
+    margin-left: 30px;
+}
+.film1 h2{
+    color: white;
+    font-size: 25px;
+    margin-top: 90%;
+}
+/* part 4  */
+.camera{
+    height: 1000px;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+}
+.cam1{
+    height: 100%;
+    width: auto;
+    background-color: rgba(22, 21, 21, 0.988);
+}
+.cam2{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(22, 21, 21, 0.988);
+    background-image: url(./image/camera.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.camera1{
+    background-color: rgba(22, 21, 21, 0.988);
+    height: 200px;
+    width: 100%;
+    margin-left: 50px;
+   
+}
+.camera2{
+    background-color: #171717;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.camera3{
+    background-color: #171717;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.com1{
+    background-color: rgba(22, 21, 21, 0.988);
+    height: 100%;
+    width: 50%;
+    
+    
+
+}
+.com2{
+    background-color: rgba(22, 21, 21, 0.988);
+    height: 100%;
+    width: 50%;
+    
+
+}
+.com3{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgba(22, 21, 21, 0.988);
+
+}
+.com4{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgba(22, 21, 21, 0.988);
+
+}
+.camera1 h2{
+    color: #fd6500;
+    font-size: 20px;
+    padding-top: 90px;
+
+    
+}
+.camera1 h1{
+    font-size: 50px;
+    color: white;
+    
+}
+.aicon1{
+    height: 60px;
+    width: 70px;
+    background-image: url(./image/aicon1.png);
+    background-color: rgba(22, 21, 21, 0.988);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.aicon2{
+    height: 60px;
+    width: 50px;
+    background-image: url(./image/aicon2.png);
+    background-color: rgba(22, 21, 21, 0.988);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.aicon3{
+    height: 60px;
+    width: 60px;
+    background-image: url(./image/aicon3.png);
+    background-color: rgba(22, 21, 21, 0.988);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.aicon4{
+    height: 60px;
+    width: 60px;
+    background-image: url(./image/aicon4.png);
+    background-color: rgba(22, 21, 21, 0.988);
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+.com1 h2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px;
+    margin-left: 40px;
+}
+.com2 h2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px;
+    margin-left: 40px;
+}
+.com3 h2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px;
+    margin-left: 40px;
+}
+.com4 h2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px;
+    margin-left: 40px;
+}
+.com1 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.com2 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.com3 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.com4 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.com1 button{
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+.com2 button{
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+.com3 button{
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+.com4 button{
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+/* featured */
+.featured{
+    height: 250px;
+    width: 100%;
+    background-color: #171717;
+    text-align: center;
+}
+.featured h2{
+    color: #fd6500;
+    padding-top: 110px;
+
+}
+.featured h1{
+    color: white;
+    font-size: 50px;
+}
+/* threepic */
+.threepic{
+    height: 900px;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.threepic1{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    
+    
+
+}
+.threepic11{
+    /* height: 50px; */
+    width: 100%;
+   
+    
+}
+.threepic2{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films2.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.threepic3{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+.threepic22{
+    /* height: 50px; */
+    width: 100%;
+    
+    
+}
+.threepic33{
+    /* height: 50px; */
+    width: 100%;
+   
+    
+}
+.threepic11 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.threepic22 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.threepic33 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.threepic h1{
+    color: white;
+    text-align: center;
+}
+/* army */
+.army{
+    height: 900px;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.army1{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    
+    
+
+}
+.army11{
+    /* height: 50px; */
+    width: 100%;
+   
+    
+}
+.army2{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films5.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.army3{
+    height: 700px;
+    width: 29%;
+    background-color: #8851a6;
+    background-image: url(./image/films1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+.army22{
+    /* height: 50px; */
+    width: 100%;
+    
+    
+}
+.army33{
+    /* height: 50px; */
+    width: 100%;
+   
+    
+}
+.army11 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.army22 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.army33 h2{
+    color: white;
+    margin-top: 730px;
+    text-align: center;
+}
+.army h1{
+    color: white;
+    text-align: center;
+}
+/* feedback */
+.feedback{
+    /* height: 750px; */
+    width: 100%;
+    background-image: url(./image/testimonial\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.feed1{
+    /* height: 200px; */
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+
+}
+.feed11{
+    /* height: 100%; */
+    width: 50%;
+    background-color: transparent;
+
+}
+.feed2{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    margin-top: 80px;
+}
+.feedback h2{
+    color: #fd6500;
+    font-size: 25px;
+
+}
+.feedback h1{
+    color: white;
+    font-size: 50px;
+}
+.feedback1{
+    /* height: 500px; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.feed3{
+    /* height: 90%; */
+    width: 42%;
+    background-color: #fd6500;
+    background-image: url(./image/page.png);
+    background-size: cover;
+}
+.feed4{
+    /* height: 90%; */
+    width: 42%;
+    background-color: aqua;
+    background-image: url(./image/page.png);
+    background-size: cover;
+}
+.abc{
+    height: 100px;
+    width: 100px;
+    background-color: #8851a6;
+    background-image: url(./image/abc.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.feed3 p{
+    font-size: 25px;
+    margin: 0px 30px;
+    line-height: 45px;
+}
+.feed3 h2{
+    color: #fd6500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.abcd{
+    height: 26px;
+    width: 100px;
+    background-image: url(./image/matrix.png);
+    background-size: contain;
+    background-position: center;
+    
+}
+.feed4 p{
+    font-size: 25px;
+    margin: 0px 30px;
+    line-height: 45px;
+    
+}
+.feed4 h2{
+    color: #fd6500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.feedback1 .abcd{
+    text-align: center;
+    margin-left: 29%;
+}
+.feed4 .abcd{
+    margin-top: -32px;
+}
+.feed3 .abcd{
+    margin-top: -32px;
+}
+/* my team */
+.team{
+    height: 200px;
+    width: 100%;
+    background-color: #171717;
+    text-align: center;
+
+}
+.team h2{
+    color: #fd6500;
+    font-size: 20px;
+    padding-top: 90px;
+}
+.team h1{
+    color: white;
+    font-size: 45px;
+}
+/* junior director */
+.photos{
+    height: 600px;
+    width: 100%;
+    background-color: #171717;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.photos1{
+    height: 400px;
+    width: 22%;
+    background-color: #8851a6;
+    background-image: url(./image/photos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photos2{
+    height: 400px;
+    width: 22%;
+    background-color: #8851a6;
+    background-image: url(./image/photos2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photos3{
+    height: 400px;
+    width: 22%;
+    background-color: #8851a6;
+    background-image: url(./image/photos3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photos4{
+    height: 400px;
+    width: 22%;
+    background-color: #8851a6;
+    background-image: url(./image/photos4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photos p{
+    margin-top: 125%;
+    color: white;
+}
+.photos h1{
+    color: white;
+}
+.photos i{
+    color: rgb(138, 137, 137);
+    background-color: #171717 ;
+    margin: 0px 3px;
+}
+/* touch */
+.touch{
+    height: 300px;
+    width: 100%;
+    background-color: #171717;
+    display: inline-flex;
+}
+.touch p{
+    color: #fd6500;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.touch h1{
+    color: white;
+    font-size: 45px;
+    margin: 25px 0px;
+    margin-left: 50px;
+
+
+}
+.touch h2{
+    color: white;
+    font-size: 55px;
+    margin-left: 50px;
+}
+.touch i{
+    font-size: 100px;
+    color: white;
+    background-color: #171717;
+    
+
+    
+    
+}
+
+.i{
+    display: flex;
+    text-align: center;
+    
+}
+.aaa{
+    height: 100%;
+    width: 90%;
+
+}
+.iii{
+    height: 100px;
+    width: 100px;
+    background-color: #8851a6;
+    margin-top: 90px;  
+}
+/* contect  */
+.box{
+    height: 500px;
+    width: 100%;
+    background-image: url(./image/pexels-photo-2.jpg);
+    background-size: cover;
+    background-position: top;
+    display: inline-flex;
+    justify-content: space-around;
+
+    
+}
+.box p{
+    font-size: 20px;
+    margin: 15px 0px;
+    margin-left: 15px;
+}
+.part1{
+    height: 300px;
+    width: 20%;
+    background-color: transparent;
+    margin-top: 70px;
+}
+.part2{
+    height: 300px;
+    width: 20%;
+    background-color: transparent;
+    margin-top: 70px;
+}
+.part3{
+    height: 300px;
+    width: 20%;
+    background-color: transparent;
+    margin-top: 70px;
+}
+.part4{
+    height: 300px;
+    width: 20%;
+    background-color: transparent;
+    margin-top: 70px;
+    
+}
+.ffaime{
+    height: 47px;
+    width: 180px;
+    background-color: transparent;
+    background-image: url(./image/logo.png);
+    background-size: cover;
+    
+}
+.part1 p{
+    color: white;
+}
+.zom1{
+    height: 40%;
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.zom2{
+    height: 40%;
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.pic1{
+    height: 90%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url(./image/01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(21, 94, 24);
+    background-image: url(./image/02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic3{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(139, 192, 70);
+    background-image: url(./image/03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic4{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(182, 197, 67);
+    background-image: url(./image/04.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic5{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(136, 77, 123);
+    background-image: url(./image/05.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic6{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(181, 139, 107);
+    background-image: url(./image/06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.part2 h1{
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.par1{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.par2{
+    font-size: 35px;
+}
+.par1 h1{
+    color: white;
+}
+.par1 p{
+    color: white;
+}
+.pro1{
+    
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+}
+.pro2{
+   
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+}
+.pro3{
+   
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+}
+.part4 p{
+    color: white;
+    /* line-height: 30px; */
+    
+
+}
+.part4 i{
+    color: #fd6500;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.part4 h1{
+    color: white;
+}
+.part3 i{
+    color: white;
+}
+.border{
+    height: 70px;
+    width: 100%;
+    background-image: url(./image/pexels-photo-2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.border p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.border h2{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
